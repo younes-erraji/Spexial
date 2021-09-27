@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Special Design</title>
+
+    <link rel="apple-touch-icon" href="./assets/icons/favicon.png" />
+    <link rel="shortcut icon" size="88x88" href="./assets/icons/favicon.png" />
+
+    <link rel="stylesheet" href="./assets/styles/utilities/poppins.css" />
+    <link rel="stylesheet" href="./assets/styles/utilities/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/utilities/font-awesome.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo">
+          <h1>special</h1>
+        </div>
+        <ul>
+          <li><a class="active">home</a></li>
+          <li><a data-section="about">about</a></li>
+          <li><a data-section="skills">skills</a></li>
+          <li><a data-section="gallery">gallery</a></li>
+          <li><a data-section="timeline">timeline</a></li>
+          <li><a data-section="features">features</a></li>
+          <li><a data-section="testimonials">testimonials</a></li>
+          <li><a data-section="contact">contact</a></li>
+        </ul>
+         <div class="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="intro-text">
+        <h2>Hi! I am <span>Younes ERRAJI</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          <br />
+          Facere tempora aspernatur ipsa cumque deserunt doloribus, recusandae
+          nulla error architecto vel, tenetur repellendus distinctio, rerum
+          optio nemo eum culpa accusantium sapiente.
+        </p>
+      </div>
+    </div>
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear fa-fw icon"></i>
+      </div>
+      <div class="settings-container">
+        <div class="box recolor">
+          <strong>Change site colors</strong>
+          <ul>
+            <li class="selected" data-color="#4549ae"></li>
+            <li data-color="#71ee4b"></li>
+            <li data-color="#f15a5a"></li>
+            <li data-color="#f5c02f"></li>
+            <li data-color="#e94b4b"></li>
+            <li data-color="#258aff"></li>
+          </ul>
+        </div>
+        <hr />
+        <div class="box auto-back">
+          <strong>Enable automatics Background</strong>
+          <span class="on" data-background="on">On</span>
+          <span class="off" data-background="off">Off</span>
+        </div>
+        <hr />
+        <div class="box">
+          <strong>Show Bullets</strong>
+          <div class="bullets-option">
+            <span class="show active" data-display="show">Show</span>
+            <span class="hide" data-display="hide">Hide</span>
+          </div>
+        </div>
+        <hr />
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <div class="nav-bullets">
+      <div class="bullet" data-section="about">
+        <div class="tooltip">about</div>
+      </div>
+      <div class="bullet" data-section="skills">
+        <div class="tooltip">skills</div>
+      </div>
+      <div class="bullet" data-section="gallery">
+        <div class="tooltip">gallery</div>
+      </div>
+      <div class="bullet" data-section="timeline">
+        <div class="tooltip">timeline</div>
+      </div>
+      <div class="bullet" data-section="features">
+        <div class="tooltip">features</div>
+      </div>
+      <div class="bullet" data-section="testimonials">
+        <div class="tooltip">testimonials</div>
+      </div>
+      <div class="bullet" data-section="contact">
+        <div class="tooltip">contact</div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="about">
+        <div class="info-box">
+          <h3>about</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi
+            earum magni inventore laudantium ipsa, vitae magnam exercitationem
+            maiores at recusandae voluptates nemo, quasi tempora. Quis impedit
+            ab, omnis ad molestias non ut quo facere ex quae corrupti saepe,
+            harum velit, eaque placeat minima! Deserunt.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="./assets/images/contact.png" alt="about us" />
+        </div>
+      </div>
+    </div>
+    <div class="skills">
+      <div class="container">
+        <h3>skills</h3>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress" data-progress="98%">
+            <span></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress" data-progress="84%">
+            <span></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">java script</div>
+          <div class="skill-progress" data-progress="80%">
+            <span></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSharp</div>
+          <div class="skill-progress" data-progress="64%">
+            <span></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">SQL Server</div>
+          <div class="skill-progress" data-progress="88%">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gallery">
+      <div class="container">
+        <h3>gallery</h3>
+        <div class="images-box">
+          <img src="./assets/images/studio/001.jpg" alt="One" />
+          <img src="./assets/images/studio/002.jpg" alt="Two" />
+          <img src="./assets/images/studio/003.jpg" alt="Three" />
+          <img src="./assets/images/studio/004.jpg" alt="Four" />
+          <img src="./assets/images/studio/001.jpg" alt="Five" />
+          <img src="./assets/images/studio/002.jpg" alt="Sex" />
+          <img src="./assets/images/studio/003.jpg" alt="Seven" />
+          <img src="./assets/images/studio/004.jpg" alt="Eight" />
+          <img src="./assets/images/studio/003.jpg" alt="Nine" />
+          <img src="./assets/images/studio/004.jpg" alt="Ten" />
+        </div>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h4>Heading</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid
+                eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                placeat maxime nobis quam?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h4>Heading</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid
+                eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                placeat maxime nobis quam?
+              </p>
+            </div>
+          </div>
+          <div class="left">
+            <div class="content">
+              <h4>Heading</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid
+                eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                placeat maxime nobis quam?
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="content">
+              <h4>Heading</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid
+                eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                placeat maxime nobis quam?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2016</div>
+          <div class="left">
+            <div class="content">
+              <h4>Heading</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid
+                eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                placeat maxime nobis quam?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h4>Heading</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Deleniti ex molestiae illo nisi quaerat veniam beatae aliquid
+                eligendi. Aliquid tenetur quas ex, sequi porro nam commodi
+                placeat maxime nobis quam?
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <h3>Features</h3>
+      <div class="container">
+        <div class="feat-box">
+          <img src="./assets/icons/features/programming.svg" alt="" />
+          <h4>Development</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            aliquid placeat minus, alias quo praesentium itaque temporibus!
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="./assets/icons/features/advertising.svg" alt="" />
+          <h4>Marketing</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            aliquid placeat minus, alias quo praesentium itaque temporibus!
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="./assets/icons/features/hosting-icon.svg" alt="" />
+          <h4>Hosting</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            aliquid placeat minus, alias quo praesentium itaque temporibus!
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="./assets/icons/features/mobile-app.svg" alt="" />
+          <h4>Mobile Develope</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            aliquid placeat minus, alias quo praesentium itaque temporibus!
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="./assets/icons/features/graphic-design.svg" alt="" />
+          <h4>Cloud and Servers</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            aliquid placeat minus, alias quo praesentium itaque temporibus!
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="./assets/icons/features/web-design.svg" alt="" />
+          <h4>Seo</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            aliquid placeat minus, alias quo praesentium itaque temporibus!
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <div class="testimonials">
+      <div class="container">
+        <h3>Testimonials</h3>
+        <div class="ts-box">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut dolore
+            sunt distinctio alias molestias at facilis velit quisquam.
+          </p>
+          <div class="person-info">
+            <img src="./assets/images/brand.jpg" alt="" />
+            <h4>Mehdi</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            deserunt rem officiis tempore nesciunt.
+          </p>
+          <div class="person-info">
+            <img src="./assets/images/brand.jpg" alt="" />
+            <h4>Safae</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+            perferendis minima nesciunt deserunt perspiciatis.
+          </p>
+          <div class="person-info">
+            <img src="./assets/images/brand.jpg" alt="" />
+            <h4>Younes ERRAJI</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h3>Contact Us</h3>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="name" name="username" />
+            <input type="text" placeholder="phone" name="phone" />
+            <input type="email" placeholder="email" name="email" />
+            <input type="text" placeholder="subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="message"></textarea>
+            <input type="submit" value="send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      Copyright &copy; 2021. All Rights Reserved
+      <br />
+      Created with ❤ By Younes ERRAJI
+    </footer>
+    <script src="./assets/scripts/script.js"></script>
+  </body>
+</html>
